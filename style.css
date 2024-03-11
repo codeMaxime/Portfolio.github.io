@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+#maPhoto{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+header{
+    position: fixed;
+    top :0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+    padding-right: 71px;
+}
+
+.sommaire{
+    margin-top: -10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+    background-color:rgb(255, 255, 255);
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    padding-right: 71px;
+}
+.Accueil{
+  color: #000000;
+}
+.Projets{
+  color: #000000;
+}
+.Apropos{
+  color: #000000;
+}
+.Contact{
+    color: #000000;
+}

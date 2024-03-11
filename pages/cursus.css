@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+#maPhoto{
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  height: 60px;
+  width: auto;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+header{
+  position: fixed;
+  top :0px;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 100%;
+}
+h1{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+margin-right: 50px;
+}
+
+.sommaire{
+margin-top: -10px;
+margin-left: 0px;
+display: flex;
+justify-content: space-around;
+height: 35px;
+background-color:rgb(255, 255, 255);
+flex-direction: row;
+width: 100%;
+margin-bottom: 20px;
+align-items: center;
+}
+.cursus{
+color: #000000;
+}
+.planing{
+color: #000000;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 70px;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(0, 0, 0, 0.562);
+}
+
+/* selected link */
+a:active {
+  color: rgb(0, 0, 0);
+}
+aside{
+    height: 400px;
+    float: right;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: rgb(34, 34, 34);
+    border-radius: 5px;
+    height: max-content;
+}
+body{
+  margin-top: 90px;
+  width: 100%;
+  background-color: #ffffff;                                         
+  color: #000000;
+  font-family : "Roboto" ;
+}
+
+#plus{
+  color: rgb(65, 61, 131);
+  text-decoration: underline;
+}
+
+.sco{
+  float: right;
+}
+
+@keyframes fadeInUp{
+  0%{transform:translate(0px, 100px); opacity: 0;}
+  100%{transform:translate(0px, 0); opacity: 1;}
+}
+
+.fadeInUp{animation:fadeInUp 1s ease backwards;}

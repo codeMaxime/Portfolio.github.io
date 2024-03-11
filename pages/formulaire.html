@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img id="maPhoto" src="../images/maPhoto.jpg"></a>
+        <h1>Maxime Rocher</h1>
+    </header>
+    <container class="sommaire">
+        <div class="cursus"><a href="../pages/cursus.html">Mon cursus</a></div>
+        <div class="planing"><a href="../pages/planing.html">Planing extra-scolaire</a></div>
+    </container>
+    <div class="contacts">
+        <h1>Me contacter</h1>
+        <form action="../scrypt/script.php" method="post" class="fadeInUp">
+            <div>
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" name="nom" placeholder="Dufort" required>
+            </div>
+            <div>
+                <label for="prenom">Prenom : </label>
+                <input type="text" id="prenom" name="prenom" placeholder="Quentin" required>
+            </div>
+            <div>
+                <label for="tel">Téléphone : </label>
+                <input type="tel" id="tel" name="tel" placeholder="06 09 70 59 68">
+            </div>
+            <div>
+                <label for="sujet">Motif du contacte : </label>
+                <select name="sujet" id="sujet" required>
+                <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+                <option value="probleme-1">Problème 1</option>
+                <option value="probleme-2">Problème 2</option>
+                <option value="probleme-3">Problème 3</option>
+            </select>
+            </div>
+            <div>
+                <label for="date">Date de rdv : </label>
+                <input id="date" name="date" type="datetime-local" placeholder="28/02/2005" required></input>
+            </div>
+            <div>
+                <label for="yes">Oui :</label>
+                <input class="radio1et2" type="radio" id="yes" name="radio1et2" value="yes" checked />
+            </div>
+            <div>
+                <label for="no">Non : </label>
+                <input class="radio1et2" type="radio" id="no" name="radio1et2" value="no" />
+            </div>
+            <div>
+                <label for="message">Votre message : </label>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer mon message</button>
+                <button type="reset">Reccomencer le formulaire</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
